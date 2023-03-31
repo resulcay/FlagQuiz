@@ -1,2 +1,2 @@
 # FlagQuiz
-A quiz app which about countrys' flags.
+A quiz app which about countries' flags.
