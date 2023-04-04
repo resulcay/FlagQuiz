@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/ic_bg"
+
+    tools:context=".ResultActivity">
+
+  <ImageView
+      android:id="@+id/trophy"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:contentDescription="image"
+      android:src="@drawable/ic_trophy"/>
+
+  <TextView
+      android:id="@+id/congratulation"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="CONGRATLATIONS!"
+      android:textColor="@color/white"
+      android:textSize="25sp"
+      android:textStyle="bold"/>
+
+   <TextView
+       android:id="@+id/name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25dp"
+       android:textColor="@color/white"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       android:text="Username"/>
+
+    <TextView
+       android:id="@+id/score"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:textColor="@android:color/secondary_text_dark"
+       android:textSize="20sp"
+       android:text="Your score is 9 out of 10  "/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="FINISH"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</LinearLayout>
